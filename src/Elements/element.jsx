@@ -1,8 +1,10 @@
-import person from '../Data/person'
-const element = (
+import person from '../Data/person';
+
+function element(props){}
+ element = (
     <div>
     <h1> Hello, world !</h1>
-    <small>{person.name} {person.surename}</small>
+    <small>{person.element}</small>
     </div>
     );
 

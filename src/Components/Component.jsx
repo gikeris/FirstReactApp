@@ -1,10 +1,10 @@
 
-function Element(props){
+function Component(props){
  return (
     <div>
-    <h1> Hello, world !</h1>
-    <small>{props.name} {props.surename}</small>
+    <h1> Hello, Barsukas!</h1>
+    <small>{props.name} {props.surename} per {props.per}</small>
     </div>
     );
 }
-    export default Element;
+    export default Component; 
