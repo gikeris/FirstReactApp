@@ -1,7 +1,7 @@
 import Bebras from './Bebras';
 
 function Kvadratas(props){
-    if ('Brigadininkas'=== props.bebras)
+    if ('Brigadininkas'== props.bebras)
     {
         return (
             <div className ="kvadratas br">
